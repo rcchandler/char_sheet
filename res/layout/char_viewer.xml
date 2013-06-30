@@ -9,5 +9,6 @@
     tools:context=".CharViewerActivity" >
 
     <include layout="@layout/attribute_view" />
+    <include layout="@layout/hp_values" />
 
 </LinearLayout>

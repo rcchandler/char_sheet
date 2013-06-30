@@ -1,12 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
     
-    <include layout="@layout/def_values" />
-    <include layout="@layout/hp_values" />
-
-    <!-- <LinearLayout style="@style/container">
+    <LinearLayout style="@style/container">
 
         <TextView
             style="@style/attr_label"
@@ -49,6 +47,6 @@
         <TextView
             android:id="@+id/will_defense"
             style="@style/attr_value" />
-    </LinearLayout> -->
+    </LinearLayout>
 
 </LinearLayout>

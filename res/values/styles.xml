@@ -21,13 +21,44 @@
     <style name="attr_label">
 	    <item name="android:layout_width">wrap_content</item>
 	    <item name="android:layout_height">wrap_content</item>
-	    <item name="android:textAppearance">@style/attr_label_text</item>
+	    <item name="android:textAppearance">@style/attr_text_label</item>
 	</style>
 	
+    <style name="attr_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/attr_text_label</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="partial_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/attr_text_label</item>
+        <item name="android:paddingLeft">@dimen/spacer</item>
+        <item name="android:paddingRight">@dimen/spacer</item>
+    </style>
+	
+    <style name="attr_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="grid_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
     <style name="container">
 	    <item name="android:layout_width">0dp</item>
 	    <item name="android:layout_height">wrap_content</item>
 	    <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="grid_container">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
 </resources>

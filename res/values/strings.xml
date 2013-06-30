@@ -4,5 +4,17 @@
     <string name="app_name">CharViewer</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="def_ac">AC</string>
+    <string name="def_fort">Fort</string>
+    <string name="def_ref">Ref</string>
+    <string name="def_will">Will</string>
+    <string name="hp">HP</string>
+    <string name="hp_surges">Surges</string>
+    <string name="hp_temp">Temp HP</string>
+    <string name="hp_button_damage">Damage</string>
+    <string name="hp_button_heal">Heal</string>
+    <string name="hp_button_temp">Set Temp</string>
+    <string name="hp_surges_regain">Regain</string>
+    <string name="hp_surges_expend">Expend</string>
 
 </resources>
